@@ -155,6 +155,10 @@ pre {
     padding: 1rem;
 }
 
+.github {
+    width: 5rem;
+}
+
 .example {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -177,6 +181,11 @@ pre {
   border-top-right-radius: 0;
   /*border: 1px solid #ccc;*/
   /*border-top: 0;*/
+}
+.borderBox {
+    border: 1px solid "red";
+    margin: 0 auto;
+    width: 50%;
 }
 pre {
   margin-bottom: 2rem;
@@ -612,6 +621,12 @@ pre {
     width: 100%;
     height: auto;
 }
+
+.badge {
+    align-content: "center";
+    background-color: "red";
+}
+
 div.image,
 div.audio,
 div.video {
@@ -920,6 +935,7 @@ nav[role="navigation"] {
 .site-container {
     margin: 0 auto;
 }
+
 .site-header,
 .page-desc {
     padding: 40px 20px;
